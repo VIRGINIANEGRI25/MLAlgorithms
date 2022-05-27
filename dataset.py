@@ -88,7 +88,7 @@ for i in range(num_values):
 
 print(values_tandelta[1], values_temperature[1], values_current[1], values_time[1], values_output[1]) # valori finali
 
-with open('C:/Users/Virginia/Desktop/Algoritmi/dataset.csv','w',newline='') as file:
+with open('C:/Users/Virginia/Desktop/MLAlgorithms/dataset.csv','w',newline='') as file:
     writer = csv.writer(file)
     for i in range(num_values):
         writer.writerow([values_tandelta[i], values_temperature[i], values_current[i], values_time[i], values_output[i]])

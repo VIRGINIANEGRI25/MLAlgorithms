@@ -7,7 +7,7 @@ from sklearn import metrics
 
 col_names = ['sepal length', 'sepal width', 'petal length', 'petal width', 'label']
 # load dataset
-pima = pd.read_csv('C:/Users/Virginia/Desktop/Algoritmi/ClassificazioneMultiClasse/iris.csv', header=None, names=col_names)
+pima = pd.read_csv('C:/Users/Virginia/Desktop/MLAlgorithms/ClassificazioneMultiClasse/iris.csv', header=None, names=col_names)
 print(pima.head())
 #split dataset in features and target variable
 feature_cols = ['sepal length', 'sepal width', 'petal length', 'petal width']

@@ -6,7 +6,7 @@ from sklearn import metrics
 
 col_names = ['pregnant', 'glucose', 'bp', 'skin', 'insulin', 'bmi', 'pedigree', 'age', 'label']
 # load dataset
-pima = pd.read_csv('C:/Users/Virginia/Desktop/Algoritmi/ClassificazioneBinaria/diabetes.csv', header=None, names=col_names)
+pima = pd.read_csv('C:/Users/Virginia/Desktop/MLAlgorithms/ClassificazioneBinaria/diabetes.csv', header=None, names=col_names)
 print(pima.head())
 #split dataset in features and target variable
 feature_cols = ['pregnant', 'glucose', 'bp', 'skin','insulin','bmi','pedigree', 'age']
