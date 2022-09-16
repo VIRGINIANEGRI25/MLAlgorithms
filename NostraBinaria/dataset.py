@@ -9,9 +9,9 @@ def main():
     # da superare per avere guasto
     
     #tan delta
-    th_1_tandelta = 10^-2
-    th_2_tandelta = 10^-3
-    th_3_tandelta = 10^-4
+    th_1_tandelta = 10**(-2)
+    th_2_tandelta = 10**(-3)
+    th_3_tandelta = 10**(-4)
     # temperatura terreno
     th_1_temperature = 40 
     th_2_temperature = 30
@@ -24,8 +24,8 @@ def main():
     # limiti di variazione
     # sup e inf per distribuzione uniforme 
     # a 3sigma per distribuzione normale
-    max_val_tandelta = 10^-1
-    min_val_tandelta = 10^-5
+    max_val_tandelta = 10**(-1)
+    min_val_tandelta = 10**(-5)
     max_val_temperature = 45 
     min_val_temperature = 5
     max_val_current = 300
